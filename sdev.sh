@@ -131,13 +131,22 @@ do
 sudo useradd -g Mentees mentee$a
 done
 #
-#Creating directories
+# Creating directories
+mkdir Announcements # common announcements directory
+touch Welcome.txt
+# Creating domain specific directories
 mkdir DevOps
 cd Devops
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
+cd Grades
+touch Task1-grades.txt
+cd ..
 chown mentor1 DevOps
 chmod g-w Tasks
 chmod g+rw Submissions
@@ -153,8 +162,14 @@ cd EE
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor2 EE
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -169,8 +184,14 @@ cd Algos
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor1 Algos
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -185,8 +206,14 @@ cd WebDev
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor3 WebDev
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -201,8 +228,14 @@ cd UI-UX
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor3 UI-UX
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -217,8 +250,14 @@ cd Robotics
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor4 Robotics
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -233,8 +272,14 @@ cd SPML
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor5 SPML
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -249,8 +294,14 @@ cd AppDev
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+cd Announcements
+touch Welcome.txt
+cd ..
 mkdir Grades
-chown mentor1 DevOps
+cd Grades
+touch Task1-grades.txt
+cd ..
+chown mentor6 AppDev
 chmod g-w Tasks
 chmod g+rw Submissions
 chmod u-w Tasks
@@ -259,7 +310,6 @@ chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
  
-
 
 
 
