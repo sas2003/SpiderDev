@@ -309,6 +309,71 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+#
+cd DevOps/Grades/
+echo 'mentee1=50
+mentee2=65
+mentee3=60
+mentee4=53
+mentee5=70
+mentee6=85
+mentee7=80
+mentee8=75
+mentee9=45
+mentee10=40' > Task1-grades.txt
+#
+#
+cd EE/Grades/
+echo 'mentee1=65
+mentee2=60
+mentee3=70
+mentee11=30
+mentee12=80
+mentee13=70
+mentee14=55
+mentee15=50
+mentee16=75
+mentee17=35' > Task1-grades.txt
+#
+#
+cd Algos/Grades/
+echo 'mentee12=90
+mentee13=40
+mentee18=35
+mentee19=45
+mentee20=50
+mentee21=55
+mentee22=65
+mentee23=75
+mentee24=60
+mentee25=70' > Task1-grades.txt
+#
+#
+cd WebDev/Grades/
+echo 'mentee18=75
+mentee19=80
+mentee26=90
+mentee27=65
+mentee28=60
+mentee29=70
+mentee30=50
+mentee31=40
+mentee32=35
+mentee33=55' > Task1-grades.txt
+#
+#
+cd UI-UX/Grades/
+echo 'mentee27=40
+mentee28=30
+mentee34=85
+mentee35=65
+mentee36=75
+mentee37=60
+mentee38=55
+mentee39=70
+mentee40=80
+mentee41=35' > Task1-grades.txt
+
  
 
 
