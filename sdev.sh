@@ -322,6 +322,7 @@ mentee7=80
 mentee8=75
 mentee9=45
 mentee10=40' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt     # Selecting above 60 marks
 cd ..
 cd ..
 #
@@ -337,6 +338,7 @@ mentee14=55
 mentee15=50
 mentee16=75
 mentee17=35' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -352,6 +354,7 @@ mentee22=65
 mentee23=75
 mentee24=60
 mentee25=70' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -367,6 +370,7 @@ mentee30=50
 mentee31=40
 mentee32=35
 mentee33=55' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -382,6 +386,7 @@ mentee38=55
 mentee39=70
 mentee40=80
 mentee41=35' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -397,6 +402,7 @@ mentee46=40
 mentee47=85
 mentee48=50
 mentee49=30' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -412,6 +418,7 @@ mentee54=75
 mentee55=50
 mentee56=80
 mentee57=55' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 #
@@ -427,6 +434,7 @@ mentee62=75
 mentee63=35
 mentee64=60
 mentee65=55' > Task1-grades.txt
+awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 
