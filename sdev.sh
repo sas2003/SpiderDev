@@ -140,6 +140,7 @@ cd Devops
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt     # Inductees file
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -155,6 +156,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt   # Changing permissions of Inductees file
+chmod u-w Inductees.txt
 #moving to EE
 cd ..
 mkdir EE
@@ -162,6 +165,7 @@ cd EE
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -177,6 +181,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to Algos
 cd ..
 mkdir Algos
@@ -184,6 +190,7 @@ cd Algos
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -199,6 +206,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to WebDev
 cd ..
 mkdir WebDev
@@ -206,6 +215,7 @@ cd WebDev
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -221,6 +231,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to UI-UX
 cd ..
 mkdir UI-UX
@@ -228,6 +240,7 @@ cd UI-UX
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -243,6 +256,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to Robotics
 cd ..
 mkdir Robotics
@@ -250,6 +265,7 @@ cd Robotics
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -265,6 +281,8 @@ chmod u-w Announcements
 chmod u-w Submissions 
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to SPML
 cd ..
 mkdir SPML
@@ -272,6 +290,7 @@ cd SPML
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -287,6 +306,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 #moving to AppDev
 cd ..
 mkdir AppDev
@@ -294,6 +315,7 @@ cd AppDev
 mkdir Tasks
 mkdir Submissions
 mkdir Announcements
+touch Inductees.txt
 cd Announcements
 touch Welcome.txt
 cd ..
@@ -309,6 +331,8 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+chmod g-w Inductees.txt
+chmod u-w Inductees.txt
 cd ..
 #
 cd DevOps/Grades/
@@ -438,4 +462,5 @@ awk -F= '{if ($2 > 60) print $2}' <Task1-grades.txt
 cd ..
 cd ..
 
- 
+
+# Thank You 
