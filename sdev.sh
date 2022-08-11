@@ -309,6 +309,7 @@ chmod u-w Announcements
 chmod u-w Submissions
 chmod g-w Grades
 chmod g-w Announcements
+cd ..
 #
 cd DevOps/Grades/
 echo 'mentee1=50
@@ -321,6 +322,8 @@ mentee7=80
 mentee8=75
 mentee9=45
 mentee10=40' > Task1-grades.txt
+cd ..
+cd ..
 #
 #
 cd EE/Grades/
@@ -334,6 +337,8 @@ mentee14=55
 mentee15=50
 mentee16=75
 mentee17=35' > Task1-grades.txt
+cd ..
+cd ..
 #
 #
 cd Algos/Grades/
@@ -347,6 +352,8 @@ mentee22=65
 mentee23=75
 mentee24=60
 mentee25=70' > Task1-grades.txt
+cd ..
+cd ..
 #
 #
 cd WebDev/Grades/
@@ -360,6 +367,8 @@ mentee30=50
 mentee31=40
 mentee32=35
 mentee33=55' > Task1-grades.txt
+cd ..
+cd ..
 #
 #
 cd UI-UX/Grades/
@@ -368,17 +377,57 @@ mentee28=30
 mentee34=85
 mentee35=65
 mentee36=75
-mentee37=60
+mentee37=604
 mentee38=55
 mentee39=70
 mentee40=80
 mentee41=35' > Task1-grades.txt
+cd ..
+cd ..
+#
+#
+cd Robotics/Grades/
+echo 'mentee35=75
+mentee36=65
+mentee42=55
+mentee43=80
+mentee44=60
+mentee45=35
+mentee46=40
+mentee47=85
+mentee48=50
+mentee49=30' > Task1-grades.txt
+cd ..
+cd ..
+#
+#
+cd SPML/Grades/
+echo 'mentee46=70
+mentee47=65
+mentee50=35
+mentee51=25
+mentee52=40
+mentee53=85
+mentee54=75
+mentee55=50
+mentee56=80
+mentee57=55' > Task1-grades.txt
+cd ..
+cd ..
+#
+#
+cd AppDev/Grades/
+echo 'mentee52=85
+mentee53=65
+mentee58=40
+mentee59=45
+mentee60=55
+mentee61=70
+mentee62=75
+mentee63=35
+mentee64=60
+mentee65=55' > Task1-grades.txt
+cd ..
+cd ..
 
  
-
-
-
-
-
-
-
